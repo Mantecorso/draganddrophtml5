@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Drag and drop</title>
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
+    <script src="/public/javascripts/main.js" type="text/javascripts"></script>
 </head>
 <body>
     <a href="#">link</a>
@@ -19,6 +21,9 @@
     <a ondragend="" href="#">On Drag end</a>
     <a ondragover="" href="#">On Drag over</a>
 
-    <img draggable="true" ondrag="ondrag(event)" src="/public/images/35.png" alt="--">
+    <img draggable="true" ondrag="ondrag(event)" class="tam" src="/public/images/35.png" alt="--">
+    <img draggable="true" ondragstart="onDragStart(event)" class="tam" src="/public/images/ciudad_mexico.JPG" alt="">
+
+
 </body>
 </html>
